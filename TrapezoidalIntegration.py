@@ -24,13 +24,11 @@ def trapezoidal_integration(a, b, n):
 
 #пример
 if __name__ == "__main__":
-    # Ввод a, b, n
     a = 0
     b = 2
     n = 100
     
-    # Вызываем алгоритм
+    #вызываем алгоритм
     result = trapezoidal_integration(a, b, n)
     
-    # Вывод S
     print(f"S = {result}")
